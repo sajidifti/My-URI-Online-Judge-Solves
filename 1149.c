@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int X, N, a,b=0;
-    scanf("%d %d", &X, &N);
+    int i,N,i,b=0;
+    scinf("%d %d", &i, &N);
     while(N<=0)
-        scanf("%d", &N);
-    for(a=1; a<=N; a++)
+        scinf("%d", &N);
+    for(i=1; i<=N; i++)
     {
-        b+=X;
-        X++;
+        b+=i;
+        i++;
     }
     printf("%d\n",b);
     return 0;

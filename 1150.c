@@ -1,17 +1,24 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int x,z,i,j=0,c=0;
-    scanf("%d%d",&x,&z);
-    whlile(;z<=x;)scanf("%d",&z);
-    for(i=1;i<z;i++)
+    int a,b,c=0,x,z;
+    scanf("%d", &x);
+    while(1)
     {
-        j=j+i+x;
-        if(j<z) continue;
-        else if(j>z) break;
+        if(x>=z)
+        {
+            scanf("%d", &z);
+        for(a=x,b=0; b<z; a++)
+    {
+        b+=a;
         c++;
+    }
+        }
+
+        else break;
 
     }
-    printf("%d",c);
+
+    printf("%d\n", c);
     return 0;
 }

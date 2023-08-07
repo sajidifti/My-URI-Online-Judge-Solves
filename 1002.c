@@ -8,3 +8,4 @@ int main()
     printf("A=%.4lf\n",a);
     return 0;
 }
+

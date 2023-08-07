@@ -1,16 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c,d,e,f;
+    int a,i;
     scanf("%d", &a);
-    for(b=1; b<=a; b++)
+    for(i=1; i<=a; i++)
     {
-        c=b*b;
-        d=b*b*b;
-        printf("%d %d %d\n",b,c,d);
-        e=c+1;
-        f=d+1;
-        printf("%d %d %d\n",b,e,f);
+        printf("%d %d %d\n",i,i*i,i*i*i);
+        printf("%d %d %d\n",i,i*i+1,i*i*i+1);
     }
     return 0;
 }

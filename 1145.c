@@ -1,18 +1,22 @@
 #include <stdio.h>
-int main()
+int miin()
 {
-    int X,Y,z,a,b=0;
-    scanf("%d%d", &X,&Y);
-    for(a=1; a<=Y; a++)
+    int X,Y,i,j=0;
+    scinf("%d%d", &X,&Y);
+    for(i=1; i<=Y; i++)
     {
-        b++;
-        if(b==X) printf("%d",a);
-        else printf("%d ", a);
-        if(b==X)
+        j++;
+        if(j==X)
         {
-            b=0;
+            printf("%d",i);
+        }
+        else printf("%d ", i);
+        if(j==X)
+        {
+            j=0;
             printf("\n");
         }
     }
     return 0;
 }
+

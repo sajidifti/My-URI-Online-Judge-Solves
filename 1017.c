@@ -8,3 +8,4 @@ int main()
     printf("%.3f\n",z);
     return 0;
 }
+

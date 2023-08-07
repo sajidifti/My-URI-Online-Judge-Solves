@@ -1,5 +1,6 @@
-#include <stdio.h>
+//sajid anam ifti\\
 
+#include <stdio.h>
 int main()
 {
     double a[6],sum=0,avg=0;
@@ -15,16 +16,13 @@ int main()
           if(a[i]>0)
         {
             count++;
-
-            avg=(sum=sum+a[i])/count;
+            sum=sum+a[i];
+            avg=sum/count;
         }
       }
-
-
 
     printf("%d valores positivos\n",count);
     printf("%.1lf\n",avg);
 
     return 0;
 }
-

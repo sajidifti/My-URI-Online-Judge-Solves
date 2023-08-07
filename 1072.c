@@ -1,24 +1,24 @@
 #include <stdio.h>
 int main()
 {
-    int x, a, i;
-
-    int in = 0;
-    int out = 0;
+    int x,a,i,j=0,k=0;
 
     scanf("%d", &x);
     for(i = 0; i < x; i++)
     {
         scanf("%d", &a);
-        if(a >= 10 && a <= 20){
-            in++;
-        }else{
-            out++;
+        if(a >= 10 && a <= 20)
+            {
+            j++;
+        }
+        else
+            {
+            k++;
         }
 
     }
-    printf("%d in\n", in);
-    printf("%d out\n", out);
+    printf("%d in\n", j);
+    printf("%d out\n", k);
 
     return 0;
 }

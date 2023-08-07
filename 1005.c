@@ -8,3 +8,4 @@ int main()
     printf("MEDIA = %.5lf\n",M);
     return 0;
 }
+

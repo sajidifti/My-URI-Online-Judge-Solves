@@ -1,24 +1,31 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,x;
+    int a,b,i,j;
 
     scanf("%d%d",&a,&b);
 
     if(a<b)
     {
-       for(x=a+1;x<b;x++)
+       for(i=a+1;i<b;i++)
     {
-        if(x%5==2 || x%5==3) printf("%d\n",x);
+        if(i%5==2 || i%5==3)
+        {
+            printf("%d\n",i);
+        }
     }
     }
 
     else
     {
-        for(x=b+1;x<a;x++)
+        for(j=b+1;j<a;j++)
     {
-        if(x%5==2 || x%5==3) printf("%d\n",x);
+        if(j%5==2 || j%5==3)
+        {
+            printf("%d\n",j);
+        }
     }
     }
     return 0;
 }
+

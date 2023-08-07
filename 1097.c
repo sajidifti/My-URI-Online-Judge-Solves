@@ -1,12 +1,16 @@
-#include<stdio.h>
-int main(){
-    int i, I, j, k;
-
-    for (int i = 1,j =7; i <= 9; i += 2,j += 2) {
-            for (int l = i, k = j; k >= (j-2); k--) {
-                printf("I=%d J=%d\n", I, k);
-            }
+#include <stdio.h>
+int main()
+{
+    int i,j,a=7,b;
+    for(i=1;i<=9;i=i+2)
+    {
+        for(b=1,j=a;b<=3;j--,b++)
+        {
+            printf("I=%d J=%d\n", I, J);
         }
 
+        a=a+2;
+    }
     return 0;
 }
+

@@ -2,20 +2,25 @@
 
 int main()
 {
- int a, b, c, tmp;
+ int a, b, c, d;
 
  scanf("%d %d %d", &a, &b, &c);
 
- tmp = a;
- if(a < b || a < c){
-  if(b < c){
-   tmp = c;
-  }else{
-   tmp = b;
+ d = a;
+ if(a < b || a < c)
+ {
+  if(b < c)
+    {
+   d = c;
+    }
+  else
+  {
+   d = b;
   }
  }
 
- printf("%d eh o maior\n", tmp);
+ printf("%d eh o maior\n", d);
 
  return 0;
 }
+

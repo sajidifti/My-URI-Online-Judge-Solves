@@ -1,24 +1,28 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c=0,x;
+    int a,b,c=0,i,j;
     scanf("%d%d", &a, &b);
     if(a<b)
     {
-        for(x=a; x<=b; x++)
+        for(i=a; i<=b; i++)
         {
-            if(x%13==0) continue;
-            c+=x;
+            if(i%13==0)continue;
+
+            c+=i;
         }
     }
     else if(a>b)
     {
-        for(x=b; x<=a; x++)
+        for(j=b; j<=a; j++)
         {
-            if(x%13==0) continue;
-            c+=x;
+            if(j%13==0)continue;
+
+            c+=j;
         }
     }
     printf("%d\n",c);
+
     return 0;
 }
+

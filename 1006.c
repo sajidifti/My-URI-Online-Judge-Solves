@@ -7,3 +7,4 @@ int main()
     printf("MEDIA = %.1f\n",M);
     return 0;
 }
+

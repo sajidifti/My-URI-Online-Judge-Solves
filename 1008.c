@@ -8,3 +8,4 @@ main()
     printf("NUMBER = %d\nSALARY = U$ %.2f\n",n,s);
     return 0;
 }
+

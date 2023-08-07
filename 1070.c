@@ -2,18 +2,19 @@
 
 int main()
 {
-    int n,i;
+    int n,i,j;
     scanf("%d",&n);
+    j=n+12;
     if(n%2==0)
     {
-        for(i=n+1;i<n+12;i+=2)
+        for(i=n+1;i<j;i+=2)
         {
             printf("%d\n",i);
         }
     }
     else
     {
-        for(i=n;i<n+12;i+=2)
+        for(i=n;i<j;i+=2)
         {
             printf("%d\n",i);
         }
@@ -21,3 +22,4 @@ int main()
 
     return 0;
 }
+
