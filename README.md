@@ -1,2 +1,2 @@
 # My-URI-Online-Judge-Solves
-Trying out some problems in URI Online Judge
+Tried to solve some problems in URI Online Judge to practice C.
